@@ -67,6 +67,12 @@
     <Compile Include="Admission Form.Designer.cs">
       <DependentUpon>Admission Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Individual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual.Designer.cs">
+      <DependentUpon>Individual.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,8 +81,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchStudent.Designer.cs">
+      <DependentUpon>SearchStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpgradeSemester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpgradeSemester.Designer.cs">
+      <DependentUpon>UpgradeSemester.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Admission Form.resx">
       <DependentUpon>Admission Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual.resx">
+      <DependentUpon>Individual.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -90,6 +111,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SearchStudent.resx">
+      <DependentUpon>SearchStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpgradeSemester.resx">
+      <DependentUpon>UpgradeSemester.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

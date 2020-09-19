@@ -52,5 +52,23 @@ namespace NWU_College_Management
             Admission_Form na = new Admission_Form();
             na.Show();
         }
+
+        private void registerNewSemesterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpgradeSemester bd = new UpgradeSemester();
+            bd.Show();
+        }
+
+        private void searchStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SearchStudent en = new SearchStudent();
+            en.Show();
+        }
+
+        private void individualDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Individual sl = new Individual();
+            sl.Show();
+        }
     }
 }

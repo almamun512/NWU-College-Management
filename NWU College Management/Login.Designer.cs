@@ -198,6 +198,7 @@
             this.registerNewSemesterToolStripMenuItem.Name = "registerNewSemesterToolStripMenuItem";
             this.registerNewSemesterToolStripMenuItem.Size = new System.Drawing.Size(269, 28);
             this.registerNewSemesterToolStripMenuItem.Text = "Register New Semester";
+            this.registerNewSemesterToolStripMenuItem.Click += new System.EventHandler(this.registerNewSemesterToolStripMenuItem_Click);
             // 
             // studentDetailsToolStripMenuItem
             // 
@@ -216,12 +217,14 @@
             this.searchStudentToolStripMenuItem.Name = "searchStudentToolStripMenuItem";
             this.searchStudentToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.searchStudentToolStripMenuItem.Text = "Search Student";
+            this.searchStudentToolStripMenuItem.Click += new System.EventHandler(this.searchStudentToolStripMenuItem_Click);
             // 
             // individualDetailsToolStripMenuItem
             // 
             this.individualDetailsToolStripMenuItem.Name = "individualDetailsToolStripMenuItem";
             this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.individualDetailsToolStripMenuItem.Text = "Individual Details";
+            this.individualDetailsToolStripMenuItem.Click += new System.EventHandler(this.individualDetailsToolStripMenuItem_Click);
             // 
             // aboutUsToolStripMenuItem
             // 
