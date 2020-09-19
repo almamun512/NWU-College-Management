@@ -70,5 +70,16 @@ namespace NWU_College_Management
             Individual sl = new Individual();
             sl.Show();
         }
+
+        private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About us = new About();
+            us.Show();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

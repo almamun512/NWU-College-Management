@@ -302,9 +302,9 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(126, 93);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(54, 17);
+            this.label12.Size = new System.Drawing.Size(24, 17);
             this.label12.TabIndex = 17;
-            this.label12.Text = "label12";
+            this.label12.Text = "01";
             // 
             // Admission_Form
             // 
@@ -338,6 +338,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Admission_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admission_Form";
